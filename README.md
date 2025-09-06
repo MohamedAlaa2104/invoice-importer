@@ -15,7 +15,7 @@ A simple PHP library to import invoice data from Excel files and export it in va
 ### 1. Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/MohamedAlaa2104/invoice-importer.git
 cd invoice-importer
 composer install
 ```
