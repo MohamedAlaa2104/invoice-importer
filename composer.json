@@ -1,0 +1,33 @@
+{
+    "name": "mohamedaladdin/invoice-importer",
+    "description": "A PHP library for importing invoice data from Excel files to database with flexible export capabilities",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Mohamedaladdin\\InvoiceImporter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mohamedaladdin\\InvoiceImporter\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Aladdin"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    }
+}
