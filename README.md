@@ -170,6 +170,15 @@ Visit `http://localhost:8000` to view your data.
 composer test
 ```
 
+## Database Schema
+
+![Database Schema](docs/schema_erd.png)
+
+The database consists of three main tables:
+- **customers**: Stores customer information
+- **invoices**: Stores invoice headers with customer references
+- **invoice_items**: Stores individual items within each invoice
+
 ## File Structure
 
 ```
@@ -185,6 +194,7 @@ src/
 cli/                  # Command-line tools
 web/                  # Web interface
 tests/                # Unit tests
+docs/                 # Documentation and diagrams
 ```
 
 ## Requirements
